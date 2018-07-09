@@ -30,7 +30,7 @@ sudo make install
 ```
 #### Compilation
 ```
-clone git@github.com:an2netto/02-P-Dev_Tools.git
+clone https://github.com/an2netto/02-P-Dev_Tools.git
 cd 02-P-Dev_Tools/
 make
 run ./script.sh
