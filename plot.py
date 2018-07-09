@@ -22,7 +22,7 @@ plt.plot(x, y3, color='g', linestyle='--', label='-O2')
 plt.plot(x, y4, color='c', linestyle='-', label='-O3')
 plt.plot(x, y5, color='m', linestyle='-', label='-Os')
 
-plt.title('DFT with variable gcc opt flags', size=12)
+plt.title('DFT performance: O(n^2)', size=12)
 plt.legend(loc='upper left')
 plt.xlabel('Number of items', size=12)
 plt.ylabel('Measured time, ms', size=12)
