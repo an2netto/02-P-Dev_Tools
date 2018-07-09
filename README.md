@@ -1,6 +1,6 @@
 <p align="center">
   <b>02-P-Dev_Tools</b><br>
-  <a>DFT performance tool</a>
+  <a>DFT performance tool</a> :snail:
 </p>
 
 #### Description
