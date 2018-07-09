@@ -4,12 +4,10 @@
 </p>
 
 #### Description
-
 Measure performance time of Discrete Fourier Transform algorithm.
 The source code is compiled into multiple binaries with -O0, -O1, -O2, -O3, Os gcc flags.
 Performance is measured against a variable number of samples in 20 steps
 within range
-
 ```python
 [0..2000..100]
 ```
@@ -21,7 +19,6 @@ within range
 ```console
 sudo apt-get install python3-matplotlib
 ```
-
 You can download *libsndfile* source package [here](http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.28.tar.gz). And compile as follows:
 
 ```console
@@ -38,5 +35,4 @@ cd 02-P-Dev_Tools/
 make
 run ./script.sh
 ```
-
 The script generates a *data.txt* file with performance stats plotted to a *plot.png*.
