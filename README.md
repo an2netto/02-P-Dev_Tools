@@ -3,7 +3,7 @@
   <a>DFT performance tool</a>
 </p>
 
-##### Description
+#### Description
 
 Measure performance time of Discrete Fourier Transform algorithm.
 The source code is compiled into multiple binaries with -O0, -O1, -O2, -O3, Os gcc flags.
@@ -13,7 +13,7 @@ within range
 ```python
 [0..2000..100]
 ```
-##### Dependencies
+#### Dependencies
 - libsndfile
 - matplotlib
 
@@ -31,7 +31,7 @@ You can download *libsndfile* source package [here](http://www.mega-nerd.com/lib
 make
 sudo make install
 ```
-##### Compilation
+#### Compilation
 ```
 clone git@github.com:an2netto/02-P-Dev_Tools.git
 cd 02-P-Dev_Tools/
